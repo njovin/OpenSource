@@ -1,12 +1,12 @@
 Title: SimpleCRM
 
-Author: Grant James Kmball
+Author: Grant James Kimball
 
 Author URI: http://yourlocalwebmaster.com
 
 Description: SimpleCRM is just as the title implies, a simple client relations managament system.
 
-::SUMMARY::
+-SUMMARY-
 
 	There are two (2) user levels:  ADMIN & USER
 
@@ -17,7 +17,7 @@ Description: SimpleCRM is just as the title implies, a simple client relations m
 	DEFAULT LIST VALUES are custom drop down / field options that a user can assign to a "CONTACT". 
 	i.e. (Type of Customer, Sales Stage, Group, etc...) 
 
-::INSTALLATON::
+-INSTALLATON-
 
 	1. Create a Database on your server and edit the config file located at /php/class/db.php (see below)
 	
@@ -43,7 +43,7 @@ Description: SimpleCRM is just as the title implies, a simple client relations m
 
 	4. Upload the files to your server.		
           
-::INITIAL LOGIN::
+-INITIAL LOGIN-
 
 	Admin Level User
 		u: admin@mysite.biz 
@@ -53,7 +53,7 @@ Description: SimpleCRM is just as the title implies, a simple client relations m
 		u: user@mysite.biz
 		p: simpleCRM123
 
-::IMPORT USERS::
+-IMPORT USERS-
 
 	To upload bulk users, you will need a Comma Delimitted CSV template with the following headers:  "email, password, level, active"
 	ex: (import_users.csv)
@@ -69,7 +69,7 @@ Description: SimpleCRM is just as the title implies, a simple client relations m
 		Level is 1 or 2, 1 being USER, and 2 being ADMIN
 		Active is a bool value, 1 or 0, respectfully.
 
-::CONFIGURING FTP EXPORT::
+-CONFIGURING FTP EXPORT-
 
 	1. Open "/php/class/general.php"
 		CHANGE:	$this->ftp = false;
