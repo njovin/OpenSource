@@ -1,0 +1,3 @@
+id,fname,lname,company,address,city,state,zip,email,phone,cell,typeofperson,customfields,notes
+15,Grant,Kimball,Your Local Webmaster,1727 S Tremont St.,Oceansid,California,92054,uturnweb@gmail.com,7605002742,7605002742,Customer,Group->Referalls::,These are my notes!
+16,Grant,Kimball,Your Local Webmaster,1727 S Tremont St.,Oceansid,California,92054,uturnweb@gmail.com,7605002742,7605002742,Customer,Group->Referalls::,These are my notes!
