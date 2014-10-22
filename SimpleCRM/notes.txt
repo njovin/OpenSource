@@ -31,6 +31,8 @@ Description: SimpleCRM is just as the title implies, a simple client relations m
 			
 			// Recommended size: 187x21
 			$this->logo_nav_html = '<img src="images/mylogo.png" alt="My Logo" />';
+
+			$this->welcome_logo_html = '<img src="images/mylogo.png" alt="My Welcome Logo" />';
 				
 
 	3. SimpleCRM has FTP upload and transfer capabilities. This is DISABLED by default and requires access to your server. 
