@@ -1,6 +1,9 @@
 Title: SimpleCRM
+
 Author: Grant James Kmball
+
 Author URI: http://yourlocalwebmaster.com
+
 Description: SimpleCRM is just as the title implies, a simple client relations managament system.
 
 ::SUMMARY::
